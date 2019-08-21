@@ -1,0 +1,10 @@
+.placeholder {
+  min-height: 100vh;
+  font-family: "Verdana", sans-serif;
+  font-size: 36px;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

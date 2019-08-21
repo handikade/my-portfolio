@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <h1>hai</h1>
+    <div className="placeholder">Gonna rock soon ;)</div>
   );
 }
 
