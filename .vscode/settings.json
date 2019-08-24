@@ -1,0 +1,9 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Solarized Dark",
+  "prettier.jsxBracketSameLine": true,
+  "scss.lint.duplicateProperties": "warning"
+}

@@ -1,0 +1,35 @@
+// @import 'assets/styles/colors';
+$white: white;
+$red: #EA384D;
+$black: black;
+
+.nav-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+  background-color: $white;
+  border-radius: 1.5px;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 7px 0;
+  transition: all .3s ease-in-out;
+}
+
+.nav-icon:hover:before {
+  transform: translateY(10px) rotate(135deg);
+  background-color: $red;
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-10px) rotate(-135deg);
+  background-color: $red;
+}
+
+.nav-icon:hover div {
+  transform: scale(0);
+}

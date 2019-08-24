@@ -1,0 +1,51 @@
+.menubar {
+  $self: &;
+  height: 100%;
+  background: #0cebeb;
+  background: linear-gradient(to bottom, #0cebeb, #20e3b2, #29ffc6);
+  position: relative;
+  cursor: pointer;
+
+  &__logo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 35px;
+      height: auto;
+    }
+  }
+
+  &__btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 21px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #2b4162;
+    }
+  }
+
+  @media (max-width: 1020px) {
+    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    display: flex;
+
+    &__logo {
+      flex-basis: 50px;
+      height: initial;
+
+      img {
+        width: 30px;
+        height: auto;
+      }
+    }
+  }
+}
